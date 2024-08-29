@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>index_page</title>
+ <link rel="stylesheet" href="./styles/general.css">
+</head>
+<body>
+
+ <div class="main-wrapper" data-barba="wrapper">
+
+  <div class="nav-wrapper">
+   <div class="anchor_cell">
+    <a href="./index.html">Page 1</a>
+   </div>
+
+   <div class="anchor_cell">
+    <a href="./second.html">Page 2</a>
+   </div>
+  </div>
+
+  <div data-barba="container" data-barba-namespace="first">
+   <div class="text_block"></div>
+   <div class="text_block"></div>
+   <div class="text_block"></div>
+   <div class="text_block"></div>
+   <div class="text_block"></div>
+   <div class="text_block"></div>
+  </div>
+
+  <div class="footer-wrapper">
+   <h5>lorem ipsum</h5>
+  </div>
+
+
+ </div>
+
+<script src="./node_modules/@barba/core/dist/barba.umd.js"></script>
+ <script src="./node_modules/gsap/dist/gsap.js"></script>
+<script src="./scripts.js"></script>
+
+<script>
+ barba.init(initInfo2);
+</script>
+
+
+</body>
+</html>

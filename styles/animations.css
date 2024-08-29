@@ -1,0 +1,24 @@
+@keyframes enter-left {
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes exit-left {
+    100%{
+        transform: translateX(0);
+
+    }
+}
+
+@keyframes exit-right {
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes enter-right {
+    100%{
+        transform: translateX(0);
+    }
+}

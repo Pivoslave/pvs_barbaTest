@@ -1,0 +1,10 @@
+.main-wrapper > div[data-barba-namespace="second"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 7vh - 1.4vw - 1px - 2.1vw - 2px);
+}
+
+.main-wrapper > div.seconddiv[data-barba="container"] > h1{
+    color: white;
+}

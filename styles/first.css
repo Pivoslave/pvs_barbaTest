@@ -1,0 +1,17 @@
+.main-wrapper > div[data-barba-namespace="first"]{
+    padding: calc(7vh + 1.4vw + 1px) 0 calc(1.4vw + 1px);
+    display: flex;
+    flex-flow: row wrap;
+    column-count: 2;
+}
+
+.main-wrapper > div[data-barba="container"] > div.text_block{
+    border: 1px solid white;
+    width: calc(50% - 2px);
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+}

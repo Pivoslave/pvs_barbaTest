@@ -1,0 +1,65 @@
+@import "first.css";
+@import "second.css";
+@import "animations.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.main-wrapper{
+    position: relative;
+}
+
+.main-wrapper > div.nav-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 0.7vw 1.4vw;
+    background-color: black;
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 1.7vw;
+    z-index: 20;
+
+}
+
+.main-wrapper > div > div{
+
+    border: 1px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.main-wrapper > div.footer-wrapper{
+    position: fixed;
+    z-index: 20;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    border-top: 1px solid white;
+    font-size: 1.4vw;
+    align-items: center;
+    background-color: black;
+}
+
+.main-wrapper > div.footer-wrapper > *{
+    padding: 0.5vw 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0.2vw 1vw;
+}
